@@ -1,0 +1,32 @@
+Example explanations for the 3 highest-risk test findings (GBDT + TreeSHAP)
+
+CVE-2024-27481 (CVSS 9.4, EPSS 0.667, KEV) on cloud-api-190 [Cloud API, crit 4]
+Predicted exploitation probability: 69.3%
+Baseline score (average log-odds of training data): 1.5%
+Main drivers:
+  ^ epss                 = 0.667    +3.228 log-odds
+  ^ in_kev               = 1.000    +1.028 log-odds
+  ^ vuln_age_years       = 1.602    +0.337 log-odds
+  ^ internet_facing      = 1.000    +0.239 log-odds
+  ^ cvss_base            = 9.400    +0.177 log-odds
+
+CVE-2025-46431 (CVSS 6.7, EPSS 0.391, KEV) on web-server-597 [Web Server, crit 4]
+Predicted exploitation probability: 63.0%
+Baseline score (average log-odds of training data): 1.5%
+Main drivers:
+  ^ epss                 = 0.391    +3.045 log-odds
+  ^ in_kev               = 1.000    +0.993 log-odds
+  ^ vuln_age_years       = 0.602    +0.312 log-odds
+  ^ internet_facing      = 1.000    +0.301 log-odds
+  ^ attack_vector        = 1.000    +0.129 log-odds
+
+CVE-2025-13674 (CVSS 6.0, EPSS 0.220, KEV) on web-server-599 [Web Server, crit 4]
+Predicted exploitation probability: 58.8%
+Baseline score (average log-odds of training data): 1.5%
+Main drivers:
+  ^ epss                 = 0.220    +2.717 log-odds
+  ^ in_kev               = 1.000    +1.066 log-odds
+  ^ internet_facing      = 1.000    +0.488 log-odds
+  ^ vuln_age_years       = 0.370    +0.396 log-odds
+  ^ attack_vector        = 1.000    +0.157 log-odds
+

@@ -1,0 +1,7 @@
+out/
+Implementation/out/
+Implementation/data/
+*.class
+sources.txt
+.idea/
+*.iml

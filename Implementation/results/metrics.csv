@@ -1,0 +1,6 @@
+model,roc_auc,pr_auc,brier,ece,p50,p100,ndcg50,ndcg100
+"CVSS baseline",0.6864,0.1418,,,0.160,0.150,0.1236,0.1407
+"Rule-based weighted",0.8308,0.3719,,,0.440,0.310,0.5175,0.4707
+"Logistic Regression",0.8343,0.3900,0.05699,0.02070,0.480,0.400,0.5276,0.5185
+"XGBoost-style GBDT + SHAP",0.8434,0.3997,0.05673,0.01672,0.500,0.380,0.5407,0.5063
+"XGBoost-style GBDT + SHAP (probability only)",0.8434,0.3997,0.05673,0.01672,0.520,0.410,0.4646,0.4781

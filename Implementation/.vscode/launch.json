@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "type": "java", "name": "Run GUI", "request": "launch",
+      "mainClass": "com.threatprio.Main", "cwd": "${workspaceFolder}" },
+    { "type": "java", "name": "Run full study (headless)", "request": "launch",
+      "mainClass": "com.threatprio.Main", "args": "--headless", "cwd": "${workspaceFolder}" },
+    { "type": "java", "name": "Self-tests", "request": "launch",
+      "mainClass": "com.threatprio.SelfTest", "cwd": "${workspaceFolder}" },
+    { "type": "java", "name": "Render GUI screenshots (headless)", "request": "launch",
+      "mainClass": "com.threatprio.gui.GuiScreenshots", "cwd": "${workspaceFolder}" }
+  ]
+}
